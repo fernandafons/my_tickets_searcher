@@ -1,0 +1,116 @@
+precos = [
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6132'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6136'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '5996'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6045'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '6095'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '11974'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '11469'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5615'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '11331'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5664'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '8025'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6095'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '6095'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6095'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '6558'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '6167'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '5893'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5569'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '5536'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5619'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6095'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6299'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '6299'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6299'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '7925'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '12354'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '10812'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5615'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '11194'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '12080'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '7925'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6558'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '6250'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6250'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '6046'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '6167'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '5893'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5569'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '5536'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5619'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6558'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6558'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '7923'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6558'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '7923'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '11836'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '11331'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5615'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '11194'), 
+('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5664'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6304'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6573'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '6167'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '7901'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '7901'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '8175'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '5892'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '10810'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5535'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '5622'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '8948'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '21200'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '8948'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '8948'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '5672'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '5942'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '11832'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5585'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '5672'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '12278'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '19701'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '5622'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '7901'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '5486'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5535'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '5622'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '9250'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '10592'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '10921'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '5672'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '5942'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '5536'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5585'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '5672'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '8948'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '9943'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '8948'), 
+('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '8948')]
+
+just_price = []
+for k in precos:
+    just_price.append(int(k[1]))
+
+just_price.sort()
+print(just_price)
+# print(precos)
+
+# precos: [
+# ('https://www.kayak.com.br/flights/BSB-CGR/2020-10-09-h/CGR-BSB/2020-10-12-h?sort=bestflight_a', '498'), 
+# ('https://www.kayak.com.br/flights/BSB-CGR/2020-10-09-h/CGR-BSB/2020-10-13-h?sort=bestflight_a', '498'), 
+# ('https://www.kayak.com.br/flights/BSB-CGR/2020-10-10-h/CGR-BSB/2020-10-12-h?sort=bestflight_a', '789'), 
+# ('https://www.kayak.com.br/flights/BSB-CGR/2020-10-10-h/CGR-BSB/2020-10-13-h?sort=bestflight_a', '789')]
+
+"""
+sleep de 5 min
+Preços ordenados do mais barato para o mais caro: [5653, 5653, 5687, 5687, 5704, 5734, 5734, 5734, 5742, 5784, 5793, 5793, 5812, 5812, 
+5859, 5859, 5863, 5863, 5909, 5909, 5910, 5910, 5910, 5918, 5918, 5927, 5947, 5956, 5956, 5963, 5965, 5969, 5969, 5969, 5970, 5974, 5993, 
+5993, 6002, 6002, 6007, 6016, 6016, 6017, 6017, 6020, 6056, 6056, 6058, 6058, 6058, 6068, 6068, 6103, 6103, 6106, 6113, 6113, 6113, 6140, 6195, 
+6195, 6298, 6298, 6341, 6342, 6342, 6343, 6343, 6348, 6387, 6389, 6389, 6392, 6395, 6427, 6499, 6572, 6674, 6674, 6713, 6768, 6794, 8092, 9135, 
+9135, 9135, 9444, 9444, 10152, 12536, 12536, 12536]
+
+
+sleep de 6
+Urls e preços: [('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '8254'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6384'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '8124'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '8124'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '6225'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '10205'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '11709'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5734'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '10360'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-01-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5784'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6312'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6540'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '8124'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6458'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '6695'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '6298'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '6018'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5687'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '5653'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-02-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5738'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '11039'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '11569'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5734'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '11039'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-03-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5784'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6312'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '6540'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '6458'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '6695'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '6298'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '6018'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5687'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '5653'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-04-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5738'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '8091'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '10247'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '11569'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '5734'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '11429'), ('https://www.kayak.com.br/flights/SAO-SEL/2021-05-05-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '5784'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6713'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '8347'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '6298'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '8066'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-01-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '8066'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6017'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '5782'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '5602'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5652'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '8066'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '9135'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '10152'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '9135'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '9135'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-02-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '9135'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '6068'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '12623'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '5653'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5704'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '7786'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '20115'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-03-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '12536'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '5826'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '8066'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '8066'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5652'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '7786'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '9444'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-24-h?sort=bestflight_a', '9444'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '9444'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-04-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '9444'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-22-h?sort=bestflight_a', '5877'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-23-h?sort=bestflight_a', '5834'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-24-h?sort=bestflight_a', '5653'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-25-h?sort=bestflight_a', '5704'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-SAO/2021-05-26-h?sort=bestflight_a', '5793'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-22-h?sort=bestflight_a', '9135'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-23-h?sort=bestflight_a', '12536'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-25-h?sort=bestflight_a', '9135'), ('https://www.kayak.com.br/flights/BSB-SEL/2021-05-05-h/SEL-BSB/2021-05-26-h?sort=bestflight_a', '9135')]
+Preços ordenados do mais barato para o mais caro: [5602, 5652, 5652, 5653, 5653, 5653, 5653, 5687, 5687, 5704, 5704, 5734, 5734, 5734, 5738, 5738, 5782, 5784, 5784, 5784, 5793, 5826, 5834, 5877, 6017, 6018, 6018, 6068, 6225, 6298, 6298, 6298, 6312, 6312, 6384, 6458, 6458, 6540, 6540, 6695, 6695, 6713, 7786, 7786, 8066, 8066, 8066, 8066, 8066, 8091, 8091, 8091, 8091, 8091, 8091, 8091, 8091, 8091, 8091, 8091, 8124, 8124, 8124, 8254, 8347, 9135, 9135, 9135, 9135, 9135, 9135, 9135, 9444, 9444, 9444, 9444, 10152, 10205, 10247, 10360, 11039, 11039, 11429, 11569, 11569, 11709, 12536, 12536, 12623, 20115]
